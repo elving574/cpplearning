@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\elvin_hs21rsf\\OneDrive\\Documents\\VS\\HackathonThingy1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3555944B-B200-4C46-B177-13AD0D80F859}|HackathonThingy1\\HackathonThingy1.vcxproj|C:\\Users\\elvin_hs21rsf\\OneDrive\\Documents\\VS\\HackathonThingy1\\HackathonThingy1\\HackathonThingy1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3555944B-B200-4C46-B177-13AD0D80F859}|HackathonThingy1\\HackathonThingy1.vcxproj|solutionrelative:HackathonThingy1\\HackathonThingy1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HackathonThingy1.cpp",
+              "DocumentMoniker": "C:\\Users\\elvin_hs21rsf\\OneDrive\\Documents\\VS\\HackathonThingy1\\HackathonThingy1\\HackathonThingy1.cpp",
+              "RelativeDocumentMoniker": "HackathonThingy1\\HackathonThingy1.cpp",
+              "ToolTip": "C:\\Users\\elvin_hs21rsf\\OneDrive\\Documents\\VS\\HackathonThingy1\\HackathonThingy1\\HackathonThingy1.cpp",
+              "RelativeToolTip": "HackathonThingy1\\HackathonThingy1.cpp",
+              "ViewState": "AQIAADsAAAAAAAAAAAAgwEoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-22T12:16:15.884Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

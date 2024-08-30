@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\elvin_hs21rsf\\OneDrive\\Documents\\VS\\RockPaperScissors\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4A65631-01C4-4099-831D-2073029BD85D}|RockPaperScissors\\RockPaperScissors.vcxproj|C:\\Users\\elvin_hs21rsf\\OneDrive\\Documents\\VS\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E4A65631-01C4-4099-831D-2073029BD85D}|RockPaperScissors\\RockPaperScissors.vcxproj|solutionrelative:RockPaperScissors\\RockPaperScissors.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RockPaperScissors.cpp",
+              "DocumentMoniker": "C:\\Users\\elvin_hs21rsf\\OneDrive\\Documents\\VS\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.cpp",
+              "RelativeDocumentMoniker": "RockPaperScissors\\RockPaperScissors.cpp",
+              "ToolTip": "C:\\Users\\elvin_hs21rsf\\OneDrive\\Documents\\VS\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.cpp",
+              "RelativeToolTip": "RockPaperScissors\\RockPaperScissors.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAD4AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-22T12:58:49.955Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

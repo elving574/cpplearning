@@ -1,0 +1,3 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (GavinTest.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  LargestValue.cpp
+  GavinTest.vcxproj -> C:\Users\elvin_hs21rsf\OneDrive\Documents\VS\GavinTest\x64\Debug\LargestValue.exe

@@ -1,0 +1,9 @@
+﻿  LargestValue.cpp
+C:\Users\elvin_hs21rsf\OneDrive\Documents\VS\LargestValue\LargestValue\LargestValue.cpp(25,13): error C2131: expression did not evaluate to a constant
+  C:\Users\elvin_hs21rsf\OneDrive\Documents\VS\LargestValue\LargestValue\LargestValue.cpp(25,13):
+  failure was caused by a read of a variable outside its lifetime
+  C:\Users\elvin_hs21rsf\OneDrive\Documents\VS\LargestValue\LargestValue\LargestValue.cpp(25,13):
+  see usage of 'n'
+  
+C:\Users\elvin_hs21rsf\OneDrive\Documents\VS\LargestValue\LargestValue\LargestValue.cpp(30,13): warning C4552: '>>': result of expression not used
+C:\Users\elvin_hs21rsf\OneDrive\Documents\VS\LargestValue\LargestValue\LargestValue.cpp(38,24): warning C4552: '<<': result of expression not used

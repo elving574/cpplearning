@@ -1,2 +1,2 @@
 .
-tomatoes
+tomatoes potatoes

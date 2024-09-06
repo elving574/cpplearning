@@ -51,27 +51,33 @@ void BTout(std::vector<float> numList){
     }//above is counculating the numbers of layers in the binary tree by the size of number sequence
     std::reverse(numList.begin(),numList.end());
     // the line above is reversing the number sequence so it is easier to pop from the bask of the vector to get data at the front of the sequence
-    int largest=std::pow(2,layerNum);//getting the largest 
+    int largest=std::pow(2,layerNum);//getting the number of numbers at the bottom layer, which is the layer with the largest number of numbers
     for(int layer=0;layer<layerNum;layer++){
         std::cout<<std::endl;
-        //gap config
-        int layerEntity=std::pow(2,layer);
-        int spacesNum=largest/layerEntity/2*2;
-        std::string spaceGap(spacesNum,' ');
-        std::cout<<spaceGap;
+        //there must be spaces between numbers to make it look nice, and the length of space is different between lines, the following code is for calculating it
+        int layerEntity=std::pow(2,layer);//the number of numbers in the layer
+        int spacesNum=largest/layerEntity/2*2;//algorithem for spaces, *2 at the end are just to make it looks better, can be changed
+        std::string spaceGap(spacesNum,' ');//make string
+        std::cout<<spaceGap;//move forward to center the numbers
 
         for (int ele=0;ele<layerEntity;ele++){
+            //the following code will turn float into string then print it out
+            //the purpose is to calculate the string length of float, so later we can subtract the space it took from the gap between numbers
             std::stringstream ftos;ftos<<numList.back();
             std::string eleStr(ftos.str());
             std::cout<<eleStr;
             numList.pop_back();
             if (!numList.size()){return;}
-            std::cout<<spaceGap<<spaceGap<<std::string(eleStr.size(),'\b');
+            std::cout<<spaceGap<<spaceGap<<std::string(eleStr.size(),'\b');//2 space gaps idk why i just tried and it worked, then subtract the space numbers took
         }
+        //now the arrows to point to next layer just to make it look better
         std::cout<<std::endl;
-        std::cout<<spaceGap;
+        std::cout<<spaceGap;//move forward to center the numbers
 
-        int slashSpace=spacesNum/4;
+        int slashSpace=spacesNum/4;//algo that calculates the half of the space between the root and the root's child at the next layer
+
+        //the process of drawing arrows are simular to the process of output numbers, but at each position where numbers are outputed, 
+        //it goes back a few spaces, output a left arrow, then go back, go forward a few spaces, output a right arrow, then keep going
         for (int ele=0;ele<layerEntity;ele++){
             std::cout<<std::string(slashSpace,'\b')<<'/'<<std::string(slashSpace,' ');
             std::cout<<std::string(slashSpace,' ')<<'\\'<<spaceGap<<spaceGap<<std::string(2+slashSpace,'\b');
